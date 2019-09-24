@@ -28,8 +28,8 @@ create_table_querries.append(billing_cycle_dim_table)
 
 event_info_dim_table = """CREATE TABLE IF NOT EXISTS
 events_information_dim (id SERIAL PRIMARY KEY,
-event_id varchar, event_name varchar, original_timestamp timestamp,
-recieved_at timestamp, 
+event_id varchar, event_name varchar, account_id varchar,
+original_timestamp timestamp, recieved_at timestamp, 
 url_event_was_triggered_on varchar)"""
 
 create_table_querries.append(event_info_dim_table)

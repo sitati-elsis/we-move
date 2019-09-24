@@ -16,10 +16,11 @@ billing_cycle_dim (billing_cycle)
 VALUES (%s)"""
 
 event_info_dim_table_insert = """INSERT INTO 
-events_information_dim (event_id, event_name,
+events_information_dim (event_id,
+account_id, event_name,
 original_timestamp, recieved_at,
 url_event_was_triggered_on)
-VALUES (%s, %s, %s, %s, %s)"""
+VALUES (%s, %s, %s, %s, %s, %s)"""
 
 account_informartion_dim_table_insert = """INSERT INTO
 accounts_information_dim (event_id, account_id, 

@@ -25,7 +25,7 @@ def create_tables(curr):
         curr.execute(querry)
 
 def main():
-    curr = create_database_connection()
+    curr, conn = create_database_connection()
     drop_tables(curr)
 if __name__ == "__main__":
     main()
