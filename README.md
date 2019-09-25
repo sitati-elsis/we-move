@@ -46,6 +46,12 @@ Run the cells in the `etl.ipynb` notebook to perform the various transformations
 
 ### Testing
 
-Run the cells in the `test.ipynb` file to see the records being stored in the data warehouse tables which are a result of the
+Run the cells in the `test.ipynb` notebook to see the records being stored in the data warehouse tables which are a result of the
 
 transformations happening in the `etl.ipynb` notebook
+
+### Task 2
+
+Run the cells in the `business_questions.ipynb` in order to see the views created and sql queries which will enable us to 
+
+answer business questions for task 2
