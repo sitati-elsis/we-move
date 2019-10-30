@@ -1,4 +1,4 @@
-This task enables us to develop a greater understanding of churn and retention around our subscription events.
+This task enables us to develop a greater understanding of churn and retention around subscription events.
 
 Below are a set of guidelines we can use to set up the project on our local machines and run it locally:
 
